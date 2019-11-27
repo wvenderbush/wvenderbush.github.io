@@ -8,7 +8,11 @@ body {
 }
 
 input:focus{
-  outline:none;
+  outline:none !important;
+}
+
+audio:focus{
+  outline:none !important;
 }
 
 .carousel-item {
